@@ -224,10 +224,10 @@ body { background: var(--bg); color: var(--text); font-family: 'Syne', sans-seri
   <div class="card">
     <div class="card-title">Site details</div>
     <div class="field-row">
-      <div class="field"><label>Site name *</label><input id="n-name" placeholder="e.g. Rhythm &amp; Grooves Music Academy" /></div>
-      <div class="field" style="max-width:210px;"><label>URL</label><input id="n-url" placeholder="rhythmandgrooves.com" /></div>
+      <div class="field"><label>Site name *</label><input id="n-name" placeholder="Enter the name of the site you are auditing" /></div>
+      <div class="field" style="max-width:210px;"><label>URL</label><input id="n-url" placeholder="Enter the site's full URL" /></div>
     </div>
-    <div class="field"><label>Context <span style="font-weight:400;color:var(--text4);">(optional)</span></label><textarea id="n-ctx" placeholder="Goals, audience, competitive landscape, known issues..."></textarea></div>
+    <div class="field"><label>Context <span style="font-weight:400;color:var(--text4);">(optional)</span></label><textarea id="n-ctx" placeholder="Describe the site's goals, target audience, competitive landscape, and any known issues"></textarea></div>
   </div>
 
   <div class="card">
@@ -246,7 +246,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Syne', sans-seri
   <div class="card">
     <div class="card-title">Audience</div>
     <div class="card-sub">Type a segment and press Enter to add</div>
-    <input class="free-input" id="n-aud" placeholder="e.g. Fleet managers, Parents of school-age kids..." />
+    <input class="free-input" id="n-aud" placeholder="Describe who this site is trying to reach — be as specific as possible" />
     <div class="chip-row" id="cr-aud"></div>
   </div>
 
@@ -263,14 +263,14 @@ body { background: var(--bg); color: var(--text); font-family: 'Syne', sans-seri
     </div>
     <div class="goal-row">
       <button class="goal-other-btn" id="g-oth-btn" onclick="toggleOther()">+ Other</button>
-      <input class="goal-other-input" id="g-oth-inp" placeholder="Describe your goal..." style="display:none;" />
+      <input class="goal-other-input" id="g-oth-inp" placeholder="Describe the primary goal if not listed above" style="display:none;" />
     </div>
   </div>
 
   <div class="card">
     <div class="card-title">Industry / vertical</div>
     <div class="card-sub">Type and press Enter to add</div>
-    <input class="free-input" id="n-ind" placeholder="e.g. Heavy transportation, Music education, SaaS HR tech..." />
+    <input class="free-input" id="n-ind" placeholder="Enter the industry or vertical this site operates in" />
     <div class="chip-row" id="cr-ind"></div>
   </div>
 
